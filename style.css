@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+
+}
+.logo-area{
+    width: 50%;
+    height: 100%;
+    background-color: bisque;
+}
+.nav-items{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+.content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
