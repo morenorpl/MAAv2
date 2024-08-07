@@ -33,12 +33,18 @@ body{
 }
 .logo-area{
     font-family: "DM Serif Display", serif;
+    font-size: medium;
     width: 50%;
     color: rgb(251, 236, 208);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-left: 70px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.logo-area{
+    font-size: larger;
 }
 .nav-item{
     width: 50%;
@@ -58,7 +64,7 @@ body{
     text-decoration: none;
     color: rgb(251, 236, 208);
     margin: 0px 35px;
-    
+    font-size: medium;
     /* display: flex;
     justify-content: flex-end;
     align-items: center; */
@@ -67,10 +73,12 @@ body{
     transition: all;
     transition-duration: 0.5s;
 }
-.nav-items :hover{
-    margin-bottom: 5px;
+.nav-items a:hover{
+    font-size: large;
     color: rgb(255, 201, 93);
 }
+
+
 
 
 
@@ -84,9 +92,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all;
+    transition-duration: 0.5s;
 }
+
 .quotes{
-    width: 60%;
+    width: 55%;
     height: fit-content;
     font-family: "DM Serif Display", serif;
     font-size: xx-large;
@@ -116,7 +127,7 @@ body{
 }
 .more-btn a{
     transition: all;
-    transition-duration: 500ms;
+    transition-duration: 0.5s;
 }
 .more-btn :hover{
     border: 1px solid rgb(255, 201, 93);
