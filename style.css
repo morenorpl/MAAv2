@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
+
 /*css mono*/
 .hero{
     width: 100vw;
@@ -36,6 +38,102 @@
 
 
 /*css atha*/
+.about{
+    background-color: brown;
+    width: 100vw;
+    height: 70vh;
+}
+.kumpulan{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.div1{
+    background-color: rgb(18, 18, 18);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 10px solid #fbecd0 ;
+    
+
+}
+.helo{
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+   color: rgb(251, 236, 208);
+   font-size: 20px;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: #fbecd0 ;
+    color: #000000;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #fbecd0;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:active {
+    background-color: #fbecd0;
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+.lorem{
+    margin-top: 10px;
+    font-size: small;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.div2{
+    background-color: rgba(245, 245, 220, 0);
+    width: 50%;
+    height: 100%;
+    border: 10px solid rgb(251, 236, 208) ;
+}
+.fotoo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #ffae00;
+    margin: 60px;
+    animation: btn 0.6s ease-in-out infinite alternate;
+}
+
+
+@keyframes btn {
+    from{
+        transform: scale(0.2);
+    }
+    to{
+        transform: scale(3);
+    }
+}
 
 /*css atha*/
 
@@ -48,5 +146,67 @@
 
 
 /* bagian footer */
+.footer1{
+    margin-top: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  footer .col-md-4 {
+    flex-basis: 33.33%;
+    margin-bottom: 20px;
+  }
+  
+  footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ccc;
+  }
+  
+  .copyright {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+  }
 
 /* bagian footer */
