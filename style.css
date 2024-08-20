@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 
+body{
+    background-color: rgb(226, 207, 174);
+    width: 100vw;
+    height: 100vh;
+}
+
   /*css mono*/
   .hero {
     color: rgb(251, 236, 208);
@@ -133,6 +139,7 @@
   .more-btn a {
     transition: all;
     transition-duration: 0.5s;
+    cursor: pointer;
   }
 
   .more-btn :hover {
@@ -143,12 +150,6 @@
 
   }
 
-
-
-  .gallery {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(251, 236, 208);
   }
 
   /*css mono*/
@@ -158,12 +159,13 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    background-color: #F5F5EA;
+    background-color: rgb(226, 207, 174);
     font-family: "DM Serif Display", serif;
     font-style: normal;
     margin-bottom: 1.5%;
     font-size: x-large;
     margin-left: 90px;
+    margin-top: 100px;
 
 
   }
@@ -181,23 +183,33 @@
 
   .line-wrapper {
     background-color: black;
-    width: 280px;
+    width: 300px;
     height: 1.5px;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: flex-start;
+    align-items: center;
     margin: auto;
-    margin-left: -5px;
-    margin: 6px;
+    margin-left: 0px;
+    margin: 5px;
     /* margin-bo: 10px; */
   }
 
   .gallery {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     color: black;
-    background-color: #F5F5EA;
+    background-color: rgb(226, 207, 174);
     align-items: center;
+  }
+  .btn-area{
+    width: 100vw;
+    height: 10vh;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: rgb(226, 207, 174);
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -209,7 +221,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: 50px;
 
   }
 
@@ -217,9 +229,9 @@
     margin: 1rem;
     /* border: 1.5px solid black; */
     /* border-radius: 10px; */
-    background-color: #F5F5EA;
-    height: 350px;
-    width: 350px;
+    background-color: rgb(226, 207, 174);
+    height: 450px;
+    width: 450px;
     list-style: none;
     display: flex;
     align-items: left;
@@ -231,6 +243,7 @@
     font-family: "Poppins";
     font-size: small;
     margin: 25px;
+    margin-top: 120px;
     margin-bottom: 95px;
     /* box-shadow: 3px 3px 1px grey; */
   }
@@ -263,26 +276,27 @@
 
   }
 
-  .btn {
-
-    border-radius: 20px;
-    background-color: black;
+  .btnn {
+    font-family: "DM Sans", serif;
+    border-radius: 30px;
+    background-color: rgb(18, 18, 18);
     width: 200px;
-    height: 40px;
-    color: white;
+    height: 60px;
+    color: rgb(251, 236, 208);
     align-items: center;
     justify-content: center;
-    margin-left: 40%;
-    margin-top: 30px;
-
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
   }
 
 
-  .btn:hover {
-    background-color: #F5F5EA;
-    color: black;
-    border: solid black;
-    border-radius: 20px;
+  .btnn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(226, 207, 174);
+    color: rgb(18, 18, 18);
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 30px;
   }
 
   img {
@@ -290,8 +304,6 @@
     margin-bottom: 20px;
 
   }
-
-
   /*css attar*/
 
 
@@ -311,14 +323,14 @@
   }
 
   .div1 {
-    background-color: rgb(18, 18, 18);
+    background-color: rgb(208, 190, 157);
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 10px solid #fbecd0;
+    /* border: 10px solid rgb(226, 207, 174); */
 
 
   }
@@ -326,31 +338,45 @@
   .helo {
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
-    color: rgb(251, 236, 208);
-    font-size: 20px;
+    margin: 0px 150px;
+    color: rgb(18, 18, 18);
+    /* border: 2px solid red; */
+  }
+  .heloo{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: "DM Sans", serif;
+  }
+  .lorem {
+    font-size: small;
+    margin-top: 30px;
+    font-family: "DM Serif Display", serif;
+    
   }
 
+
   .btn {
-    margin-top: 30px;
-    background-color: #fbecd0;
-    color: #000000;
-    padding: 10px 40px;
-    border: none;
-    border-radius: 5px;
+    font-family: "DM Sans", serif;
+    margin-top: 50px;
+    background-color: rgb(18, 18, 18);
+    color: rgb(208, 190, 157);
+    padding: 20px 40px;
+    border: 1px solid rgb(18, 18, 18);
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
 
   .btn:hover {
-    background-color: #fbecd0;
-    transform: scale(1.1);
+    background-color: rgb(208, 190, 157);
+    color: rgb(18, 18, 18);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(18, 18, 18);
   }
 
   .btn:active {
-    background-color: #fbecd0;
+    background-color: rgb(226, 207, 174);
     transform: scale(0.9);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -362,18 +388,13 @@
     border-radius: 20px;
   }
 
-  .lorem {
-    margin-top: 10px;
-    font-size: small;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
+  
 
   .div2 {
     background-color: rgba(245, 245, 220, 0);
     width: 50%;
     height: 100%;
-    border: 10px solid rgb(251, 236, 208);
+    /* border: 10px solid rgb(226, 207, 174); */
   }
 
   .fotoo {
@@ -389,7 +410,7 @@
     }
 
     to {
-      transform: scale(3);
+      transform: scale(0.3);
     }
   }
 
@@ -399,12 +420,13 @@
 
   /* bagian footer */
   .footer {
+    margin-top: 150px;
     background-color: #1a1a1a;
     /* warna hitam tua */
-    color: #fff;
+    color: rgb(251, 236, 208);
     padding: 40px 0;
     text-align: center;
-    border: 10px solid rgb(251, 236, 208);
+    border: 2px solid rgb(251, 236, 208);
   }
 
   .footer-content {
@@ -415,7 +437,7 @@
 
   .footer-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
   }
@@ -432,7 +454,7 @@
   }
 
   .social-media a {
-    color: #fff;
+    color: rgb(251, 236, 208);
     transition: color 0.2s ease;
   }
 
@@ -458,19 +480,18 @@
   }
 
   .footer-links a {
-    color: #fff;
+    color: rgb(251, 236, 208);
     transition: color 0.2s ease;
   }
 
   .footer-links a:hover {
-    color: #ccc;
+    color: rgb(178, 166, 144);
   }
 
   /* tambahan untuk membuat footer lebih aestetic */
   .footer {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
   }
 
 
   /* bagian footer */
-}
